@@ -17,17 +17,17 @@
 /**
  * Version details
  *
- * @package    block
- * @subpackage inactive_user_cleanup
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @package    block inactive user cleanup
+ * @copyright  2014 Dualcube {@link http://dualcube.com/}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014080500;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->version   = 2014080501;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2012112900;
-$plugin->component = 'block_inactive_user_cleanup'; // Full name of the plugin (used for diagnostics)
+$plugin->component = 'block_inactive_user_cleanup';  // Full name of the plugin (used for diagnostics).
+$plugin->maturity  = MATURITY_STABLE;
 $plugin->cron = 60;
-$plugin->release = '2.4 (Build: 2014080500)';
+$plugin->release = '2.4 (Build: 2014080501)';
 

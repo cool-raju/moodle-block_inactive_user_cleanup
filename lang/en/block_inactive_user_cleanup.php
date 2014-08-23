@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -17,16 +16,14 @@
 
 /**
  * Strings for component 'block_inactive_user_cleanup', language 'en', branch 'MOODLE_24_STABLE'
- *
  * @package   block_inactive_user_cleanup
- * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @copyright 2014 Dualcube {@link http://dualcube.com/}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 $string['pluginname'] = 'Inactive User Cleanup';
 $string['setting'] = 'Setting Panel';
 $string['daysofinactivity'] = 'Days Of Inactivity';
-$string['daysbeforedeletion'] = 'Days Before Deletion'; 
+$string['daysbeforedeletion'] = 'Days Before Deletion';
 $string['emailsetting'] = 'Email Setting';
 $string['emailsubject'] = 'Subject';
 $string['emailbody'] = 'Body';
