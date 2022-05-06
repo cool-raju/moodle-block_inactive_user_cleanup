@@ -24,10 +24,10 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2014080501;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2022050601;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2012112900;
 $plugin->component = 'block_inactive_user_cleanup';  // Full name of the plugin (used for diagnostics).
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->cron = 60;
-$plugin->release = '2.4 (Build: 2014080501)';
+$plugin->release = '2.5 (Build: 2022050601)';
 
